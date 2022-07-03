@@ -1,0 +1,130 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\Gabriel Euller\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@8.12.2
+2 info using node@v16.15.1
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 3ms
+5 timing config:load:file:C:\Users\Gabriel Euller\AppData\Roaming\npm\node_modules\npm\npmrc Completed in 2ms
+6 timing config:load:builtin Completed in 2ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:C:\Users\Gabriel Euller\Desktop\Projeto-Mobile-main\.npmrc Completed in 0ms
+10 timing config:load:project Completed in 2ms
+11 timing config:load:file:C:\Users\Gabriel Euller\.npmrc Completed in 1ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:C:\Users\Gabriel Euller\AppData\Roaming\npm\etc\npmrc Completed in 1ms
+14 timing config:load:global Completed in 1ms
+15 timing config:load:validate Completed in 1ms
+16 timing config:load:credentials Completed in 1ms
+17 timing config:load:setEnvs Completed in 2ms
+18 timing config:load Completed in 15ms
+19 timing npm:load:configload Completed in 15ms
+20 timing npm:load:mkdirpcache Completed in 1ms
+21 timing npm:load:mkdirplogs Completed in 1ms
+22 verbose title npm install
+23 verbose argv "install"
+24 timing npm:load:setTitle Completed in 1ms
+25 timing config:load:flatten Completed in 3ms
+26 timing npm:load:display Completed in 5ms
+27 verbose logfile logs-max:10 dir:C:\Users\Gabriel Euller\Desktop\Projeto-Mobile-main\_logs
+28 verbose logfile C:\Users\Gabriel Euller\Desktop\Projeto-Mobile-main\_logs\2022-06-29T19_38_57_984Z-debug-0.log
+29 timing npm:load:logFile Completed in 9ms
+30 timing npm:load:timers Completed in 1ms
+31 timing npm:load:configScope Completed in 0ms
+32 timing npm:load Completed in 34ms
+33 timing arborist:ctor Completed in 1ms
+34 silly logfile done cleaning log files
+35 timing arborist:ctor Completed in 1ms
+36 timing idealTree:init Completed in 28ms
+37 timing idealTree:userRequests Completed in 0ms
+38 silly idealTree buildDeps
+39 silly fetch manifest expo@~44.0.0
+40 http fetch GET 200 https://registry.npmjs.org/expo 459ms (cache miss)
+41 silly fetch manifest expo-status-bar@~1.2.0
+42 http fetch GET 200 https://registry.npmjs.org/npm 700ms (cache miss)
+43 http fetch GET 200 https://registry.npmjs.org/expo-status-bar 282ms (cache miss)
+44 silly fetch manifest react@17.0.1
+45 http fetch GET 200 https://registry.npmjs.org/react 799ms (cache miss)
+46 silly fetch manifest react-dom@17.0.1
+47 http fetch GET 200 https://registry.npmjs.org/react-dom 441ms (cache miss)
+48 silly fetch manifest react-native@0.64.3
+49 http fetch GET 200 https://registry.npmjs.org/react-native 1057ms (cache miss)
+50 silly fetch manifest react-native-web@0.17.1
+51 http fetch GET 200 https://registry.npmjs.org/react-native-web 320ms (cache miss)
+52 silly fetch manifest react-is@^16.8.0
+53 http fetch GET 200 https://registry.npmjs.org/react-is 358ms (cache miss)
+54 silly fetch manifest expo-constants@~13.0.2
+55 http fetch GET 200 https://registry.npmjs.org/expo-constants 218ms (cache miss)
+56 silly fetch manifest react-navigation@4.1.1
+57 http fetch GET 200 https://registry.npmjs.org/react-navigation 1226ms (cache miss)
+58 silly fetch manifest rn-splash-screen@*
+59 http fetch GET 200 https://registry.npmjs.org/rn-splash-screen 1010ms (cache miss)
+60 silly fetch manifest styled-components@*
+61 http fetch GET 200 https://registry.npmjs.org/styled-components 272ms (cache miss)
+62 silly fetch manifest @expo/vector-icons@^12.0.0
+63 http fetch GET 200 https://registry.npmjs.org/@expo%2fvector-icons 571ms (cache miss)
+64 silly fetch manifest expo-splash-screen@~0.14.2
+65 http fetch GET 200 https://registry.npmjs.org/expo-splash-screen 209ms (cache miss)
+66 silly fetch manifest react-native-paper@4.9.2
+67 http fetch GET 200 https://registry.npmjs.org/react-native-paper 294ms (cache miss)
+68 silly fetch manifest react-native-vector-icons@*
+69 http fetch GET 200 https://registry.npmjs.org/react-native-vector-icons 205ms (cache miss)
+70 silly fetch manifest react-native-swiper@*
+71 http fetch GET 200 https://registry.npmjs.org/react-native-swiper 1060ms (cache miss)
+72 silly fetch manifest react-native-screens@~3.10.1
+73 http fetch GET 200 https://registry.npmjs.org/react-native-screens 264ms (cache miss)
+74 silly fetch manifest react-native-calendars@*
+75 http fetch GET 200 https://registry.npmjs.org/react-native-calendars 1150ms (cache miss)
+76 silly fetch manifest react-native-reanimated@~2.3.1
+77 http fetch GET 200 https://registry.npmjs.org/react-native-reanimated 232ms (cache miss)
+78 silly fetch manifest react-native-gesture-handler@~2.1.0
+79 http fetch GET 200 https://registry.npmjs.org/react-native-gesture-handler 233ms (cache miss)
+80 silly fetch manifest react-navigation-drawer@*
+81 http fetch GET 200 https://registry.npmjs.org/react-navigation-drawer 993ms (cache miss)
+82 silly fetch manifest react-native-gesture-handler@^1.0.12
+83 timing idealTree Completed in 11994ms
+84 timing command:install Completed in 12042ms
+85 notice
+85 notice New [33mminor[39m version of npm available! [31m8.12.2[39m -> [32m8.13.1[39m
+85 notice Changelog: [36mhttps://github.com/npm/cli/releases/tag/v8.13.1[39m
+85 notice Run [32mnpm install -g npm@8.13.1[39m to update!
+85 notice
+86 verbose stack Error: unable to resolve dependency tree
+86 verbose stack     at Arborist.[failPeerConflict] (C:\Users\Gabriel Euller\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1428:25)
+86 verbose stack     at Arborist.[loadPeerSet] (C:\Users\Gabriel Euller\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1394:34)
+86 verbose stack     at async Arborist.[buildDepStep] (C:\Users\Gabriel Euller\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:976:11)
+86 verbose stack     at async Arborist.buildIdealTree (C:\Users\Gabriel Euller\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:218:7)
+86 verbose stack     at async Promise.all (index 1)
+86 verbose stack     at async Arborist.reify (C:\Users\Gabriel Euller\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:153:5)
+86 verbose stack     at async Install.exec (C:\Users\Gabriel Euller\AppData\Roaming\npm\node_modules\npm\lib\commands\install.js:156:5)
+86 verbose stack     at async module.exports (C:\Users\Gabriel Euller\AppData\Roaming\npm\node_modules\npm\lib\cli.js:78:5)
+87 verbose cwd C:\Users\Gabriel Euller\Desktop\Projeto-Mobile-main
+88 verbose Windows_NT 10.0.22000
+89 verbose node v16.15.1
+90 verbose npm  v8.12.2
+91 error code ERESOLVE
+92 error ERESOLVE unable to resolve dependency tree
+93 error
+94 error While resolving: [1mundefined[22m@[1mundefined[22m
+94 error Found: [1mreact-native-gesture-handler[22m@[1m2.1.3[22m[2m[22m
+94 error [2mnode_modules/react-native-gesture-handler[22m
+94 error   [1mreact-native-gesture-handler[22m@"[1m~2.1.0[22m" from the root project
+94 error
+94 error Could not resolve dependency:
+94 error [35mpeer[39m [1mreact-native-gesture-handler[22m@"[1m^1.0.12[22m" from [1mreact-navigation-drawer[22m@[1m2.7.2[22m[2m[22m
+94 error [2mnode_modules/react-navigation-drawer[22m
+94 error   [1mreact-navigation-drawer[22m@"[1m*[22m" from the root project
+94 error
+94 error Fix the upstream dependency conflict, or retry
+94 error this command with --force, or --legacy-peer-deps
+94 error to accept an incorrect (and potentially broken) dependency resolution.
+94 error
+94 error See C:\Users\Gabriel Euller\Desktop\Projeto-Mobile-main\eresolve-report.txt for a full report.
+95 verbose exit 1
+96 timing npm Completed in 12204ms
+97 verbose unfinished npm timer reify 1656531538127
+98 verbose unfinished npm timer reify:loadTrees 1656531538170
+99 verbose unfinished npm timer idealTree:buildDeps 1656531538201
+100 verbose unfinished npm timer idealTree:#root 1656531538202
+101 verbose code 1
+102 error A complete log of this run can be found in:
+102 error     C:\Users\Gabriel Euller\Desktop\Projeto-Mobile-main\_logs\2022-06-29T19_38_57_984Z-debug-0.log
